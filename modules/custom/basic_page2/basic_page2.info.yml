@@ -1,0 +1,6 @@
+name: Basic Page2 Module
+description: This is our second module
+core: 8.x
+type: module
+pacakage: Custom Module
+core_version_requirement: ^8 || ^9

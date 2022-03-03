@@ -1,0 +1,23 @@
+basic_page2.basicPage:
+  path: "/basic2"
+  defaults:
+    _form: '\Drupal\basic_page2\Form\BasicForm'
+    _title: "Basic Form"
+  requirements:
+    _permission: "access content"
+
+basic_page2.basicPage2:
+  path: "/form_input_table"
+  defaults:
+    _form: 'Drupal\basic_page2\Form\FormInputTable'
+    _title: "Form Input Table"
+  requirements:
+    _permission: "access content"
+
+basic_page2.basicPage3:
+  path: "/student/{id}/delete"
+  defaults:
+    _form: 'Drupal\basic_page2\Form\DeleteData'
+  requirements:
+    _permission: "access content"
+    id: ^\d+$

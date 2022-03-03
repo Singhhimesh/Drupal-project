@@ -1,0 +1,7 @@
+sample.sampleRoute:
+  path: "/sample"
+  defaults:
+    _form: '\Drupal\sample\Form\MyForm'
+    _title: "Student Registration Form"
+  requirements:
+    _permission: "access content"

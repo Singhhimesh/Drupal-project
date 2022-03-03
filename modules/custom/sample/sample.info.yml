@@ -1,0 +1,6 @@
+name: Sample Module
+description: This is our sample module
+core: 8.x
+type: module
+pacakage: Sample Module
+core_version_requirement: ^8 || ^9
